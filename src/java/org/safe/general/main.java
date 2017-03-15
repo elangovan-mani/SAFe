@@ -14,10 +14,11 @@ public class main {
 
     public static void main(String[] args){
 
-        ChromeWebDriver cwdriver = new ChromeWebDriver();
-        cwdriver.ChromeWebDriver(driver,"https://www.google.com");
+//        ChromeWebDriver cwdriver = new ChromeWebDriver();
+//        cwdriver.ChromeWebDriver(driver,"https://www.google.com");
 
-
+        FirefoxWebDriver fwdriver = new FirefoxWebDriver();
+        fwdriver.FirefoxWebDriver(driver, "https://www.google.com");
 
     }
 

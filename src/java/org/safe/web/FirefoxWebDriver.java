@@ -12,10 +12,10 @@ public class FirefoxWebDriver {
 
     public void FirefoxWebDriver(WebDriver driver, String url){
 
-        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
+        //System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
 
-        DesiredCapabilities dc = DesiredCapabilities.firefox();
-        dc.setCapability("marionette", true);
+        //DesiredCapabilities dc = DesiredCapabilities.firefox();
+        //dc.setCapability("marionette", true);
 
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
